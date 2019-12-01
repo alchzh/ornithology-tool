@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: '~/assets/_bulma.scss', lang: 'sass' }
   ],
   /*
   ** Plugins to load before mounting the App
@@ -42,7 +43,7 @@ export default {
   */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    ['nuxt-buefy', { css: false }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa'

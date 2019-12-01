@@ -63,9 +63,9 @@ export default {
           to: { name: 'index' }
         },
         {
-          title: 'Inspire',
+          title: 'Practice',
           icon: 'lightbulb',
-          to: { name: 'inspire' }
+          to: { name: 'practice' }
         },
         {
           title: 'Bird select',

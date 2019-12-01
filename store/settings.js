@@ -1147,6 +1147,16 @@ export const mutations = {
   },
   setSpecies (state, { code, enabled }) {
     Vue.set(state.species[code], 'enabled', enabled)
+  },
+  setFamily (state, { family, enabled }) {
+    for (const species of state.families[family].species) {
+      Vue.set(state.species[species], 'enabled', enabled)
+    }
+  },
+  setAll (state, enabled) {
+    for (const species in state.species) {
+      Vue.set(state.species[species], 'enabled', enabled)
+    }
   }
 }
 
@@ -1169,19 +1179,9 @@ export const getters = {
 }
 
 export const actions = {
-  setFamily ({ commit, state }, { family, enabled }) {
-    for (const species of state.families[family].species) {
-      commit('setSpecies', { code: species, enabled })
-    }
-  },
-  setOrder ({ commit, dispatch, state }, { order, enabled }) {
+  setOrder ({ commit, state }, { order, enabled }) {
     for (const family of state.orders[order].families) {
-      dispatch('setFamily', { family, enabled })
-    }
-  },
-  setAll ({ commit, dispatch, state }, enabled) {
-    for (const species of Object.keys(state.species)) {
-      commit('setSpecies', { code: species, enabled })
+      commit('setFamily', { family, enabled })
     }
   }
 }
