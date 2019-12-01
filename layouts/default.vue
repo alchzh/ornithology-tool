@@ -66,6 +66,11 @@ export default {
           title: 'Inspire',
           icon: 'lightbulb',
           to: { name: 'inspire' }
+        },
+        {
+          title: 'Bird select',
+          icon: 'twitter',
+          to: { name: 'birds' }
         }
       ]
     }

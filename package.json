@@ -22,9 +22,11 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2",
-    "qs": "^6.9.1"
+    "qs": "^6.9.1",
+    "vuex-persist": "^2.2.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
