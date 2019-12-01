@@ -27,6 +27,7 @@
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2",
     "qs": "^6.9.1",
+    "vue-zoomer": "^0.3.6",
     "vuex-persist": "^2.2.0"
   },
   "devDependencies": {
