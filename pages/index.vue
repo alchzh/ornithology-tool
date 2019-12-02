@@ -36,15 +36,12 @@
     <pre>{{ JSON.stringify(allFilters) }}</pre>
 
     <div class="box has-margin-top-5">
-      <b-button @click="getRandomMedia">
-        Get new bird
-      </b-button>
       <div v-if="currentMedia" class="columns is-multiline is-vcentered">
         <div class="column is-two-thirds">
           <div class="columns is-centered">
             <div class="column is-narrow">
-              <v-zoomer v-if="currentMedia.mediaType === 'Photo'" style="height: 360px; cursor: zoom-in;">
-                <img :src="currentMedia.previewUrl" draggable="false" ondragstart="return false;">
+              <v-zoomer v-if="currentMedia.mediaType === 'Photo'" style="height: 360px; cursor: zoom-in;" ref="zoomer">
+                <img :src="currentMedia.mediaUrl" draggable="false" ondragstart="return false" style="object-fit: contain; width: 100%; height: 100%;">
               </v-zoomer>
               <video
                 v-else-if="currentMedia.mediaType === 'Video'"
@@ -108,8 +105,6 @@ export default {
     }
   },
   methods: {
-    log: console.log.bind(console),
-
     async getRandomMedia () {
       const choices = sampleSize(this.enabledSpecies, 4)
       const idx = random(choices.length - 1)
@@ -120,6 +115,11 @@ export default {
       })).results
 
       this.currentMedia = sample(results.content)
+
+      if (this.$refs.zoomer) {
+        this.$refs.zoomer.reset()
+      }
+
       this.choices = choices.map(choice => ({ species: choice, status: null }))
       this.correctIndex = idx
       this.submitted = false
@@ -136,11 +136,18 @@ export default {
       this.choices[this.correctIndex].status = 'correct'
 
       this.submitted = true
+
+      setTimeout(this.getRandomMedia.bind(this), 1000)
     },
     ...mapMutations({
       setFilter: 'settings/setFilter',
       setSpecies: 'settings/setSpecies'
     })
+  },
+  mounted () {
+    setTimeout(() => {
+      this.getRandomMedia()
+    }, 0)
   }
 }
 </script>

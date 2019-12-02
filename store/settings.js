@@ -347,793 +347,956 @@ export const state = () => ({
     bbwduc: {
       commonName: 'Black-bellied Whistling-Duck',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     snogoo: {
       commonName: 'Snow Goose',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     cangoo: {
       commonName: 'Canada Goose',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     truswa: {
       commonName: 'Trumpeter Swan',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     wooduc: {
       commonName: 'Wood Duck',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     norsho: {
       commonName: 'Northern Shoveler',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     mallar3: {
       commonName: 'Mallard',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     gnwtea: {
       commonName: 'Green-winged Teal',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     canvas: {
       commonName: 'Canvasback',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     hoomer: {
       commonName: 'Hooded Merganser',
       family: 'Anatidae',
-      order: 'Anseriformes'
+      order: 'Anseriformes',
+      enabled: true
     },
     norbob: {
       commonName: 'Northern Bobwhite',
       family: 'Odontophoridae',
-      order: 'Galliformes'
+      order: 'Galliformes',
+      enabled: true
     },
     rinphe: {
       commonName: 'Ring-necked Pheasant',
       family: 'Phasianidae',
-      order: 'Galliformes'
+      order: 'Galliformes',
+      enabled: true
     },
     rufgro: {
       commonName: 'Ruffed Grouse',
       family: 'Phasianidae',
-      order: 'Galliformes'
+      order: 'Galliformes',
+      enabled: true
     },
     wiltur: {
       commonName: 'Wild Turkey',
       family: 'Phasianidae',
-      order: 'Galliformes'
+      order: 'Galliformes',
+      enabled: true
     },
     pibgre: {
       commonName: 'Pied-billed Grebe',
       family: 'Podicipedidae',
-      order: 'Podicipediformes'
+      order: 'Podicipediformes',
+      enabled: true
     },
     rengre: {
       commonName: 'Red-necked Grebe',
       family: 'Podicipedidae',
-      order: 'Podicipediformes'
+      order: 'Podicipediformes',
+      enabled: true
     },
     rocpig: {
       commonName: 'Rock Pigeon',
       family: 'Columbidae',
-      order: 'Columbiformes'
+      order: 'Columbiformes',
+      enabled: true
     },
     cogdov: {
       commonName: 'Common Ground Dove',
       family: 'Columbidae',
-      order: 'Columbiformes'
+      order: 'Columbiformes',
+      enabled: true
     },
     moudov: {
       commonName: 'Mourning Dove',
       family: 'Columbidae',
-      order: 'Columbiformes'
+      order: 'Columbiformes',
+      enabled: true
     },
     greroa: {
       commonName: 'Greater Roadrunner',
       family: 'Cuculidae',
-      order: 'Cuculiformes'
+      order: 'Cuculiformes',
+      enabled: true
     },
     bkbcuc: {
       commonName: 'Black-billed Cuckoo',
       family: 'Cuculidae',
-      order: 'Cuculiformes'
+      order: 'Cuculiformes',
+      enabled: true
     },
     comnig: {
       commonName: 'Common Nighthawk',
       family: 'Caprimulgidae',
-      order: 'Caprimulgiformes'
+      order: 'Caprimulgiformes',
+      enabled: true
     },
     chwwid: {
       commonName: "Chuck-will's-widow",
       family: 'Caprimulgidae',
-      order: 'Caprimulgiformes'
+      order: 'Caprimulgiformes',
+      enabled: true
     },
     chiswi: {
       commonName: 'Chimney Swift',
       family: 'Apodidae',
-      order: 'Caprimulgiformes'
+      order: 'Caprimulgiformes',
+      enabled: true
     },
     rthhum: {
       commonName: 'Ruby-throated Hummingbird',
       family: 'Trochilidae',
-      order: 'Caprimulgiformes'
+      order: 'Caprimulgiformes',
+      enabled: true
     },
     clarai11: {
       commonName: 'Clapper Rail',
       family: 'Rallidae',
-      order: 'Gruiformes'
+      order: 'Gruiformes',
+      enabled: true
     },
-    sora: { commonName: 'Sora', family: 'Rallidae', order: 'Gruiformes' },
+    sora: {
+      commonName: 'Sora',
+      family: 'Rallidae',
+      order: 'Gruiformes',
+      enabled: true
+    },
     y00475: {
       commonName: 'American Coot',
       family: 'Rallidae',
-      order: 'Gruiformes'
+      order: 'Gruiformes',
+      enabled: true
     },
     purgal2: {
       commonName: 'Purple Gallinule',
       family: 'Rallidae',
-      order: 'Gruiformes'
+      order: 'Gruiformes',
+      enabled: true
     },
     whocra: {
       commonName: 'Whooping Crane',
       family: 'Gruidae',
-      order: 'Gruiformes'
+      order: 'Gruiformes',
+      enabled: true
     },
     bknsti: {
       commonName: 'Black-necked Stilt',
       family: 'Recurvirostridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     ameavo: {
       commonName: 'American Avocet',
       family: 'Recurvirostridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     ameoys: {
       commonName: 'American Oystercatcher',
       family: 'Haematopodidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     amgplo: {
       commonName: 'American Golden-Plover',
       family: 'Charadriidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     killde: {
       commonName: 'Killdeer',
       family: 'Charadriidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     rudtur: {
       commonName: 'Ruddy Turnstone',
       family: 'Scolopacidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     dunlin: {
       commonName: 'Dunlin',
       family: 'Scolopacidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     amewoo: {
       commonName: 'American Woodcock',
       family: 'Scolopacidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     wilsni1: {
       commonName: "Wilson's Snipe",
       family: 'Scolopacidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     sposan: {
       commonName: 'Spotted Sandpiper',
       family: 'Scolopacidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     commur: {
       commonName: 'Common Murre',
       family: 'Alcidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     tufpuf: {
       commonName: 'Tufted Puffin',
       family: 'Alcidae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     laugul: {
       commonName: 'Laughing Gull',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     ribgul: {
       commonName: 'Ring-billed Gull',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     hergul: {
       commonName: 'Herring Gull',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     leater1: {
       commonName: 'Least Tern',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     caster1: {
       commonName: 'Caspian Tern',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     blkter: {
       commonName: 'Black Tern',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     blkski: {
       commonName: 'Black Skimmer',
       family: 'Laridae',
-      order: 'Charadriiformes'
+      order: 'Charadriiformes',
+      enabled: true
     },
     retloo: {
       commonName: 'Red-throated Loon',
       family: 'Gaviidae',
-      order: 'Gaviiformes'
+      order: 'Gaviiformes',
+      enabled: true
     },
     comloo: {
       commonName: 'Common Loon',
       family: 'Gaviidae',
-      order: 'Gaviiformes'
+      order: 'Gaviiformes',
+      enabled: true
     },
     layalb: {
       commonName: 'Laysan Albatross',
       family: 'Diomedeidae',
-      order: 'Procellariiformes'
+      order: 'Procellariiformes',
+      enabled: true
     },
     norful: {
       commonName: 'Northern Fulmar',
       family: 'Procellariidae',
-      order: 'Procellariiformes'
+      order: 'Procellariiformes',
+      enabled: true
     },
     woosto: {
       commonName: 'Wood Stork',
       family: 'Ciconiidae',
-      order: 'Ciconiiformes'
+      order: 'Ciconiiformes',
+      enabled: true
     },
     magfri: {
       commonName: 'Magnificent Frigatebird',
       family: 'Fregatidae',
-      order: 'Suliformes'
+      order: 'Suliformes',
+      enabled: true
     },
     anhing: {
       commonName: 'Anhinga',
       family: 'Anhingidae',
-      order: 'Suliformes'
+      order: 'Suliformes',
+      enabled: true
     },
     doccor: {
       commonName: 'Double-crested Cormorant',
       family: 'Phalacrocoracidae',
-      order: 'Suliformes'
+      order: 'Suliformes',
+      enabled: true
     },
     amwpel: {
       commonName: 'American White Pelican',
       family: 'Pelecanidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     amebit: {
       commonName: 'American Bittern',
       family: 'Ardeidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     grbher3: {
       commonName: 'Great Blue Heron',
       family: 'Ardeidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     snoegr: {
       commonName: 'Snowy Egret',
       family: 'Ardeidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     grnher: {
       commonName: 'Green Heron',
       family: 'Ardeidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     bcnher: {
       commonName: 'Black-crowned Night-Heron',
       family: 'Ardeidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     rosspo1: {
       commonName: 'Roseate Spoonbill',
       family: 'Threskiornithidae',
-      order: 'Pelecaniformes'
+      order: 'Pelecaniformes',
+      enabled: true
     },
     calcon: {
       commonName: 'California Condor',
       family: 'Cathartidae',
-      order: 'Cathartiformes'
+      order: 'Cathartiformes',
+      enabled: true
     },
     turvul: {
       commonName: 'Turkey Vulture',
       family: 'Cathartidae',
-      order: 'Cathartiformes'
+      order: 'Cathartiformes',
+      enabled: true
     },
     osprey: {
       commonName: 'Osprey',
       family: 'Pandionidae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     goleag: {
       commonName: 'Golden Eagle',
       family: 'Accipitridae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     norhar2: {
       commonName: 'Northern Harrier',
       family: 'Accipitridae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     coohaw: {
       commonName: "Cooper's Hawk",
       family: 'Accipitridae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     baleag: {
       commonName: 'Bald Eagle',
       family: 'Accipitridae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     rethaw: {
       commonName: 'Red-tailed Hawk',
       family: 'Accipitridae',
-      order: 'Accipitriformes'
+      order: 'Accipitriformes',
+      enabled: true
     },
     brnowl: {
       commonName: 'Barn Owl',
       family: 'Tytonidae',
-      order: 'Strigiformes'
+      order: 'Strigiformes',
+      enabled: true
     },
     screec1: {
       commonName: 'screech-owl sp.',
       family: 'Strigidae',
-      order: 'Strigiformes'
+      order: 'Strigiformes',
+      enabled: true
     },
     grhowl: {
       commonName: 'Great Horned Owl',
       family: 'Strigidae',
-      order: 'Strigiformes'
+      order: 'Strigiformes',
+      enabled: true
     },
     snoowl1: {
       commonName: 'Snowy Owl',
       family: 'Strigidae',
-      order: 'Strigiformes'
+      order: 'Strigiformes',
+      enabled: true
     },
     brdowl: {
       commonName: 'Barred Owl',
       family: 'Strigidae',
-      order: 'Strigiformes'
+      order: 'Strigiformes',
+      enabled: true
     },
     belkin1: {
       commonName: 'Belted Kingfisher',
       family: 'Alcedinidae',
-      order: 'Coraciiformes'
+      order: 'Coraciiformes',
+      enabled: true
     },
     yebsap: {
       commonName: 'Yellow-bellied Sapsucker',
       family: 'Picidae',
-      order: 'Piciformes'
+      order: 'Piciformes',
+      enabled: true
     },
     rehwoo: {
       commonName: 'Red-headed Woodpecker',
       family: 'Picidae',
-      order: 'Piciformes'
+      order: 'Piciformes',
+      enabled: true
     },
     dowwoo: {
       commonName: 'Downy Woodpecker',
       family: 'Picidae',
-      order: 'Piciformes'
+      order: 'Piciformes',
+      enabled: true
     },
     pilwoo: {
       commonName: 'Pileated Woodpecker',
       family: 'Picidae',
-      order: 'Piciformes'
+      order: 'Piciformes',
+      enabled: true
     },
     norfli: {
       commonName: 'Northern Flicker',
       family: 'Picidae',
-      order: 'Piciformes'
+      order: 'Piciformes',
+      enabled: true
     },
     crecar1: {
       commonName: 'Crested Caracara',
       family: 'Falconidae',
-      order: 'Falconiformes'
+      order: 'Falconiformes',
+      enabled: true
     },
     amekes: {
       commonName: 'American Kestrel',
       family: 'Falconidae',
-      order: 'Falconiformes'
+      order: 'Falconiformes',
+      enabled: true
     },
     perfal: {
       commonName: 'Peregrine Falcon',
       family: 'Falconidae',
-      order: 'Falconiformes'
+      order: 'Falconiformes',
+      enabled: true
     },
     olsfly: {
       commonName: 'Olive-sided Flycatcher',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     easpho: {
       commonName: 'Eastern Phoebe',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     verfly: {
       commonName: 'Vermilion Flycatcher',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     grcfly: {
       commonName: 'Great Crested Flycatcher',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     easkin: {
       commonName: 'Eastern Kingbird',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     sctfly: {
       commonName: 'Scissor-tailed Flycatcher',
       family: 'Tyrannidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     warvir: {
       commonName: 'Warbling Vireo',
       family: 'Vireonidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     reevir1: {
       commonName: 'Red-eyed Vireo',
       family: 'Vireonidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     logshr: {
       commonName: 'Loggerhead Shrike',
       family: 'Laniidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     stejay: {
       commonName: "Steller's Jay",
       family: 'Corvidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     blujay: {
       commonName: 'Blue Jay',
       family: 'Corvidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     bkbmag1: {
       commonName: 'Black-billed Magpie',
       family: 'Corvidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     amecro: {
       commonName: 'American Crow',
       family: 'Corvidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     comrav: {
       commonName: 'Common Raven',
       family: 'Corvidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     bkcchi: {
       commonName: 'Black-capped Chickadee',
       family: 'Paridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     tuftit: {
       commonName: 'Tufted Titmouse',
       family: 'Paridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     horlar: {
       commonName: 'Horned Lark',
       family: 'Alaudidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     purmar: {
       commonName: 'Purple Martin',
       family: 'Hirundinidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     barswa: {
       commonName: 'Barn Swallow',
       family: 'Hirundinidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     cliswa: {
       commonName: 'Cliff Swallow',
       family: 'Hirundinidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     gockin: {
       commonName: 'Golden-crowned Kinglet',
       family: 'Regulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     ruckin: {
       commonName: 'Ruby-crowned Kinglet',
       family: 'Regulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     rebnut: {
       commonName: 'Red-breasted Nuthatch',
       family: 'Sittidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     whbnut: {
       commonName: 'White-breasted Nuthatch',
       family: 'Sittidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     brncre: {
       commonName: 'Brown Creeper',
       family: 'Certhiidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     buggna: {
       commonName: 'Blue-gray Gnatcatcher',
       family: 'Polioptilidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     marwre: {
       commonName: 'Marsh Wren',
       family: 'Troglodytidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     carwre: {
       commonName: 'Carolina Wren',
       family: 'Troglodytidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     cacwre: {
       commonName: 'Cactus Wren',
       family: 'Troglodytidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     amedip: {
       commonName: 'American Dipper',
       family: 'Cinclidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     eursta: {
       commonName: 'European Starling',
       family: 'Sturnidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     grycat: {
       commonName: 'Gray Catbird',
       family: 'Mimidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     brnthr: {
       commonName: 'Brown Thrasher',
       family: 'Mimidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     normoc: {
       commonName: 'Northern Mockingbird',
       family: 'Mimidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     easblu: {
       commonName: 'Eastern Bluebird',
       family: 'Turdidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     woothr: {
       commonName: 'Wood Thrush',
       family: 'Turdidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     amerob: {
       commonName: 'American Robin',
       family: 'Turdidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     cedwax: {
       commonName: 'Cedar Waxwing',
       family: 'Bombycillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     houspa: {
       commonName: 'House Sparrow',
       family: 'Passeridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     evegro: {
       commonName: 'Evening Grosbeak',
       family: 'Fringillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     houfin: {
       commonName: 'House Finch',
       family: 'Fringillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     redcro: {
       commonName: 'Red Crossbill',
       family: 'Fringillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     pinsis: {
       commonName: 'Pine Siskin',
       family: 'Fringillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     amegfi: {
       commonName: 'American Goldfinch',
       family: 'Fringillidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     laplon: {
       commonName: 'Lapland Longspur',
       family: 'Calcariidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     snobun: {
       commonName: 'Snow Bunting',
       family: 'Calcariidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     chispa: {
       commonName: 'Chipping Sparrow',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     bkcspa: {
       commonName: 'Black-chinned Sparrow',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     larspa: {
       commonName: 'Lark Sparrow',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     daejun: {
       commonName: 'Dark-eyed Junco',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     whcspa: {
       commonName: 'White-crowned Sparrow',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     harspa: {
       commonName: "Harris's Sparrow",
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     spotow: {
       commonName: 'Spotted Towhee',
       family: 'Passerellidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     yehbla: {
       commonName: 'Yellow-headed Blackbird',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     boboli: {
       commonName: 'Bobolink',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     wesmea: {
       commonName: 'Western Meadowlark',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     balori: {
       commonName: 'Baltimore Oriole',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     rewbla: {
       commonName: 'Red-winged Blackbird',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     bnhcow: {
       commonName: 'Brown-headed Cowbird',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     comgra: {
       commonName: 'Common Grackle',
       family: 'Icteridae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     ovenbi1: {
       commonName: 'Ovenbird',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     bawwar: {
       commonName: 'Black-and-white Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     kenwar: {
       commonName: 'Kentucky Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     comyel: {
       commonName: 'Common Yellowthroat',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     amered: {
       commonName: 'American Redstart',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     magwar: {
       commonName: 'Magnolia Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     yelwar: {
       commonName: 'Yellow Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     yerwar: {
       commonName: 'Yellow-rumped Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     btnwar: {
       commonName: 'Black-throated Green Warbler',
       family: 'Parulidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     scatan: {
       commonName: 'Scarlet Tanager',
       family: 'Cardinalidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     norcar: {
       commonName: 'Northern Cardinal',
       family: 'Cardinalidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     indbun: {
       commonName: 'Indigo Bunting',
       family: 'Cardinalidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     },
     paibun: {
       commonName: 'Painted Bunting',
       family: 'Cardinalidae',
-      order: 'Passeriformes'
+      order: 'Passeriformes',
+      enabled: true
     }
   }
 })
@@ -1162,16 +1325,22 @@ export const mutations = {
 
 export const getters = {
   allFilters (state) {
-    return mapValues(state.filterGroups, fg => Object.keys(pickBy(fg.filters, f => f.enabled)))
+    return mapValues(state.filterGroups, fg =>
+      Object.keys(pickBy(fg.filters, f => f.enabled))
+    )
   },
   enabledSpecies (state, getters) {
     return Object.keys(pickBy(state.species, s => s.enabled))
   },
   familyEnabled (state) {
-    return mapValues(state.families, f => every(f.species, s => state.species[s].enabled))
+    return mapValues(state.families, f =>
+      every(f.species, s => state.species[s].enabled)
+    )
   },
   orderEnabled (state, getters) {
-    return mapValues(state.orders, o => every(o.families, f => getters.familyEnabled[f]))
+    return mapValues(state.orders, o =>
+      every(o.families, f => getters.familyEnabled[f])
+    )
   },
   allEnabled (state, getters) {
     return getters.enabledSpecies.length === Object.keys(state.species).length

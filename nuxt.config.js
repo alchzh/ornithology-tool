@@ -29,7 +29,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/vuex-persist', ssr: false },
+    { src: '~/plugins/vuex-persistedstate.js', ssr: false },
     { src: '~/plugins/vue-zoomer', ssr: false }
   ],
   /*

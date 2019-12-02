@@ -28,7 +28,7 @@
     "nuxt-buefy": "^0.3.2",
     "qs": "^6.9.1",
     "vue-zoomer": "^0.3.6",
-    "vuex-persist": "^2.2.0"
+    "vuex-persistedstate": "^2.7.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
