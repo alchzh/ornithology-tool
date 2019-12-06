@@ -41,7 +41,7 @@
           <div class="columns is-centered">
             <div class="column is-narrow">
               <v-zoomer v-if="currentMedia.mediaType === 'Photo'" style="height: 360px; cursor: zoom-in;" ref="zoomer">
-                <img :src="currentMedia.mediaUrl" draggable="false" ondragstart="return false" style="object-fit: contain; width: 100%; height: 100%;">
+                <img :src="currentMedia.mediaUrl" draggable="false" ondragstart="return false" style="object-fit: contain; height: 100%;">
               </v-zoomer>
               <video
                 v-else-if="currentMedia.mediaType === 'Video'"
